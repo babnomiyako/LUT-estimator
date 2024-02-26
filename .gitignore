@@ -1,0 +1,16 @@
+
+# 無視したディレクトリ下から例外的に追跡
+# /tmp/*
+# !/tmp/dont_ignore_direcotry
+
+# file-to-track.phpだけを追跡する。
+# *
+# !/file-to-trak.php
+
+# directory-a のみを追跡
+/*
+!/source/
+# !/OUT/
+# !/filters/
+!/IN/
+!/README.md
